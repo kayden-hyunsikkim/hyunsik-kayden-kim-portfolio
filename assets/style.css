@@ -1,6 +1,8 @@
 body {
     background-color: black;
     color: white;
+   
+
 }
 
 header {
@@ -12,11 +14,11 @@ header h1 {
     font-size: 25px;
 }
 
-header h1, nav, li {
+header h1, nav, li,footer p {
     display: inline-block;
 }
 
-nav{
+nav, footer div{
     float: right;
     font-size: 25px;
 }
@@ -32,31 +34,32 @@ a {
 }
 
 
-li { 
+li, footer p { 
     margin-right: 20px;
 }
 
 
 #p-parent :first-child { 
     margin-top: 50px;
+    margin-left: 20px;;
     font-size: 120px;
-    
 }
 
 #p-parent :nth-child(2) {
     font-size: 40px;
     margin-top: 100px;
-   
+    margin-left: 20px;
 }
 
 
-img {   
+#about img {   
     margin-top: 50px;
     max-width: 210px;
     max-height: 300px;
     padding: 10px;
     border: 10px solid ;
     border-radius: 10px;
+    margin-left: 20px;
 }
 
 #about {
@@ -65,11 +68,50 @@ img {
 }
 
 #about p { 
-    margin-top: 60px;
+    margin-top: 45px;
     margin-right: 25px;
+    padding-left: 20px;
     font-size: 20px;
     line-height: 1.5;
 }
+
+
+#work {
+    max-width: 100%;
+    background-image: url(./images/paper2.jpg);
+    border-radius: 10px;
+    margin: 50px 20px 20px 20px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+#work img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+
+#work div img {
+    width: 350px;
+    height: 250px;
+    margin-left: 30px;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+
+
+
+
 
 @media screen and (min-width:1600px) {
     #p-parent :first-child { 
