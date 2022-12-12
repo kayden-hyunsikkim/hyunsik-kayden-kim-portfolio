@@ -11,8 +11,17 @@ header {
 }
 
 header h1 {
-    font-size: 25px;
+    font-size: 30px;
 }
+
+header img{
+    display: inline-block;
+    vertical-align: text-bottom;
+    width: 50px;
+    height: 36px;
+   
+}
+
 
 header h1, nav, li,footer p {
     display: inline-block;
@@ -23,10 +32,18 @@ nav, footer div{
     font-size: 25px;
 }
 
+nav {
+    margin-top: 10px;
+}
 a {
     color: white;
     text-decoration: none;
 }
+
+a:hover {
+    color: red;
+}
+
 .engname { 
     color: red;
     font-style:oblique;
@@ -42,11 +59,13 @@ li, footer p {
 #p-parent :first-child { 
     margin-top: 50px;
     margin-left: 20px;;
-    font-size: 120px;
+    font-size: 150px;
+    font-family: 'Allan';
 }
 
 #p-parent :nth-child(2) {
-    font-size: 40px;
+    font-size: 50px;
+    font-family: 'Kalam';
     margin-top: 100px;
     margin-left: 20px;
 }
@@ -85,6 +104,8 @@ li, footer p {
     padding-top: 30px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+   
 }
 
 
@@ -100,42 +121,73 @@ li, footer p {
 
 #work div img {
     width: 350px;
-    height: 250px;
-    margin-left: 30px;
+    height: 250px;    
 }
 
 footer p {
     margin-bottom: 20px;
+    font-size: 15px;
+}
+
+footer img{
+    display: inline-block;
+    vertical-align:text-bottom;
+    margin-right: 3px;
+    width: 30px;
+    height: 30px;
 }
 
 
 
 
 
-
-@media screen and (min-width:1600px) {
+@media screen and (min-width:1535px) {
     #p-parent :first-child { 
         margin-top: 50px;
-        font-size: 140px;
-        
+        font-size: 200px;   
     }
+
+    #about p { 
+        margin-top: 45px;
+        margin-right: 25px;
+        padding-left: 20px;
+        font-size: 23px;
+        line-height: 1.5;
+    }
+
+    
 }
 
 @media screen and (max-width:1280px) {
     #p-parent :first-child { 
         margin-top: 50px;
-        font-size: 100px;
+        font-size: 130px;
         
     }
+    #about p { 
+        margin-top: 45px;
+        margin-right: 25px;
+        padding-left: 20px;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+    
 }
 
 
-@media screen and (max-width:990px) {
-    #p-parent :first-child { 
-        margin-top: 50px;
-        font-size: 90px;
-        
+
+@media screen and (max-width:1012px) {
+    #work img {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        padding: 10px;
+        border: 10px solid white;
+        border-radius: 10px;
+        width: 500px;
+        height: 400px;
     }
+
 }
 
 
