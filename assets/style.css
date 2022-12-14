@@ -83,7 +83,7 @@ li, footer p {
 }
 
 #about {
-    display: grid;
+    display:grid;
     grid-template-columns: 250px 1fr;
 }
 
@@ -95,6 +95,10 @@ li, footer p {
     line-height: 1.5;
 }
 
+#about div { 
+    margin-right: 20px;
+    
+}
 
 #work {
     max-width: 100%;
@@ -222,7 +226,6 @@ figcaption {
     }
 }
 
-
 @media screen and (max-width:1295px) {
 
     #work div img {
@@ -235,17 +238,14 @@ figcaption {
 
     
 
-
-
+/*수정 필요*/
 @media screen and (max-width:1086px) {
-    #work div img {
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 30px;
-        width: 400px;
-        height: 300px;
 
+    figure {
+        display: block;
     }
+
+
     
     #work img {
         margin-left: 300px;
@@ -258,7 +258,16 @@ figcaption {
         height: 400px;
     }
 
+    #work div img {
+        width: 400px;
+        height: 350px;    
+        margin-left: 20px;
+        margin-right: 20px ;
+    }
+
 }
+
+
 
 @media screen and (max-width:980px) {
     #p-parent p:first-child { 
@@ -278,4 +287,31 @@ figcaption {
 }
 
 
+@media screen and (max-width:764px) {
+    #p-parent p:first-child { 
+        margin-top: 50px;
+        font-size: 80px;
+    }
+    
+    nav {
+        font-size: 20px;
+    }
+}
 
+
+@media screen and (max-width:701px) {
+   
+
+    nav {
+        font-size: 15px;
+    }
+
+    footer p {
+        font-size: 13px;
+    }
+
+    footer img{
+        width: 20px;
+        height: 20px;
+    }
+}
