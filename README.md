@@ -20,6 +20,7 @@ N/A
 
 ![webpage top image](./assets/images/Screenshot-top.jpg)
 ![webpage middle image](./assets/images/Screenshot-middle.jpg)
+![webpage bottom image](./assets/images/Screenshot%20miiddle-2.jpg)
 ![webpage bottom image](./assets/images/Screenshot%20bottom.jpg)
 
 URL = https://kayden-hyunsikkim.github.io/hyunsik-kayden-kim-portfolio/
