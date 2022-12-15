@@ -86,7 +86,7 @@ li, footer p {
     margin-left: 20px;
 }
 
-/* this code selector is to set up the imgs to a flex postion */
+/* this code selector is to set up the face img and paragraph into a gird postion */
 #about {
     display:grid;
     grid-template-columns: 250px 1fr;
@@ -131,13 +131,16 @@ li, footer p {
 }
 
 #work div img {
-    width: 350px;
-    height: 250px;    
+    width: 475px;
+    height: 350px;    
     margin-left: 30px;
-    margin-right: 30px ;
+    margin-right: 30px;
     margin-top: 30px;
 }
 
+#work div {
+    margin-left: 110px;
+}
 
 
 footer p {
@@ -165,83 +168,111 @@ figcaption {
 }
 
 
-/* this works when the screen is bigger than 1700px. */
 
-@media screen and (min-width:1700px) {
+/* this works when the screen is smaller than 1622px. */
+
+@media screen and (max-width:1622px) {
+
+    #p-parent p:first-child { 
+        margin-top: 50px;
+        margin-left: 20px;;
+        font-size: 165px;
+        font-family: 'Allan';
+    }
+    
     
     #work div img {
-        width: 450px;
-        height: 350px;    
-        margin-left: 80px;
-        margin-right: 80px ;
-        margin-top: 60px;
+        width: 350px;
+        height: 250px;    
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 30px;
     }
+
+    
+
 
 }
 
 
-/* this works when the screen is bigger than 1535px. */
+/* this works when the screen is smaller than 1523px. */
 
 
-@media screen and (min-width:1535px) {
-    #p-parent p:first-child { 
-        margin-top: 50px;
-        font-size: 200px;   
-    }
-
-    #about p { 
-        margin-top: 45px;
-        margin-right: 25px;
-        padding-left: 20px;
-        font-size: 23px;
-        line-height: 1.5;
-    }
+@media screen and (max-width:1523px) {
 
     #work div img {
         width: 350px;
         height: 250px;    
-        margin-left: 65px;
-        margin-right: 65px ;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 30px;
     }
 
-    
+ 
+
+
 }
 
-/* this works when the screen is smaller than 1295px. */
 
-@media screen and (max-width:1295px) {
-    #p-parent p:first-child { 
-        margin-top: 50px;
-        font-size: 130px;
-        
-    }
-    #about p { 
-        margin-top: 45px;
-        margin-right: 25px;
-        padding-left: 20px;
-        font-size: 18px;
-        line-height: 1.5;
-    }
-    
+/* this works when the screen is smaller than 1420px. */
+
+@media screen and (max-width:1420px) {
+
     #work div img {
         width: 350px;
         height: 250px;    
         margin-left: 20px;
-        margin-right: 20px ;
+        margin-right: 20px;
+        margin-top: 30px;
     }
+
+ 
+
+
+}
+
+/* this works when the screen is smaller than 1346px. */
+
+@media screen and (max-width:1346px) {
 
     #work div img {
         width: 300px;
-        height: 250px;    
+        height: 200px;    
         margin-left: 20px;
-        margin-right: 20px ;
+        margin-right: 20px;
+        margin-top: 30px;
     }
+
+    #work img {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        border: 10px solid white;
+        border-radius: 10px;
+        width: 500px;
+        height: 400px;   
+       
+    }
+
+
+}
+
+
+/* this works when the screen is smaller than 1250px. */
+@media screen and (max-width:1250px){
+#p-parent p:first-child { 
+    margin-top: 50px;
+    margin-left: 20px;;
+    font-size: 130px;
+    font-family: 'Allan';
+}
+
 }
 
 
 
-/* this works when the screen is smaller than 1086px. */
-@media screen and (max-width:1086px) {
+/* this works when the screen is smaller than 920px. */
+@media screen and (max-width:920px) {
 
     figure {
         display: block;
@@ -267,6 +298,11 @@ figcaption {
         margin-right: 20px ;
     }
 
+    #work div {
+        margin: 0;
+    }
+
+ 
 }
 
 /* this works when the screen is smaller than 980px. */
