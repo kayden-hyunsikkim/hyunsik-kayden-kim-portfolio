@@ -22,8 +22,9 @@ header img{
    
 }
 
-
-header h1, nav, li,footer p {
+/* this code selector is for all the elements which need inline-block fot display */
+/* I didn't put the elements like header img etc becasue it is more readable when the code is in the selector itself*/
+header h1, nav, li,footer p, figure{
     display: inline-block;
 }
 
@@ -35,6 +36,7 @@ nav, footer div{
 nav {
     margin-top: 10px;
 }
+
 a {
     color: white;
     text-decoration: none;
@@ -44,6 +46,7 @@ a:hover {
     color: red;
 }
 
+/* this code selector is for to make "kadyen" be red by giving class engname */
 .engname { 
     color: red;
     font-style:oblique;
@@ -56,7 +59,7 @@ li, footer p {
     margin-right: 20px;
 }
 
-
+/* this code selector select the p first element in the div which has a id called p-parent */
 #p-parent p:first-child { 
     margin-top: 50px;
     margin-left: 20px;;
@@ -64,6 +67,7 @@ li, footer p {
     font-family: 'Allan';
 }
 
+/* this code selector select the p second element in the div which has a id called p-parent */
 #p-parent p:nth-child(2) {
     font-size: 50px;
     font-family: 'Kalam';
@@ -82,6 +86,7 @@ li, footer p {
     margin-left: 20px;
 }
 
+/* this code selector is to set up the imgs to a flex postion */
 #about {
     display:grid;
     grid-template-columns: 250px 1fr;
@@ -100,6 +105,7 @@ li, footer p {
     
 }
 
+/* this code selector is to set up the imgs to a flex postion */
 #work {
     max-width: 100%;
     background-image: url(./images/paper2.jpg);
@@ -147,9 +153,6 @@ footer img{
     height: 25px;
 }
 
-figure {
-    display: inline-block;
-}
 
 figcaption {
     text-align: center;
@@ -162,7 +165,7 @@ figcaption {
 }
 
 
-
+/* this works when the screen is bigger than 1700px. */
 
 @media screen and (min-width:1700px) {
     
@@ -177,7 +180,7 @@ figcaption {
 }
 
 
-
+/* this works when the screen is bigger than 1535px. */
 
 
 @media screen and (min-width:1535px) {
@@ -204,6 +207,8 @@ figcaption {
     
 }
 
+/* this works when the screen is smaller than 1295px. */
+
 @media screen and (max-width:1295px) {
     #p-parent p:first-child { 
         margin-top: 50px;
@@ -224,9 +229,6 @@ figcaption {
         margin-left: 20px;
         margin-right: 20px ;
     }
-}
-
-@media screen and (max-width:1295px) {
 
     #work div img {
         width: 300px;
@@ -236,9 +238,9 @@ figcaption {
     }
 }
 
-    
 
-/*수정 필요*/
+
+/* this works when the screen is smaller than 1086px. */
 @media screen and (max-width:1086px) {
 
     figure {
@@ -267,7 +269,7 @@ figcaption {
 
 }
 
-
+/* this works when the screen is smaller than 980px. */
 
 @media screen and (max-width:980px) {
     #p-parent p:first-child { 
@@ -278,6 +280,7 @@ figcaption {
 
 }
 
+/* this works when the screen is smaller than 830px. */
 @media screen and (max-width:830px) {
     #p-parent p:first-child { 
         margin-top: 50px;
@@ -286,7 +289,7 @@ figcaption {
 
 }
 
-
+/* this works when the screen is smaller than 764px. */
 @media screen and (max-width:764px) {
     #p-parent p:first-child { 
         margin-top: 50px;
@@ -298,7 +301,7 @@ figcaption {
     }
 }
 
-
+/* this works when the screen is smaller than 701px. */
 @media screen and (max-width:701px) {
    
 
