@@ -20,7 +20,7 @@ To read my portfolio easily, click each item in navigation bar. Once you click, 
 
 ![webpage top image](./assets/images/Screenshot-top.jpg)
 ![webpage middle image](./assets/images/Screenshot-middle.jpg)
-![webpage bottom image](./assets/images/Screenshot-bottom.jpg)
+![webpage bottom image](./assets/images/Screenshot%20bottom.jpg)
 
 URL = https://kayden-hyunsikkim.github.io/hyunsik-kayden-kim-portfolio/
 
