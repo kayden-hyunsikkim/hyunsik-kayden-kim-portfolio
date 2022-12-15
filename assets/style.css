@@ -287,6 +287,13 @@ figcaption {
         font-size: 100px;
     }
 
+    #p-parent p:nth-child(2) {
+        font-size: 35px;
+        font-family: 'Kalam';
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+
 }
 
 /* this works when the screen is smaller than 764px. */
