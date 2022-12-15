@@ -14,8 +14,8 @@ Also I learned how to goole the way that I want to refer or apply to my code to 
 N/A
 
 ## Usage
-<p>To understand the code that I code, please read the comments in CSS file.<br>
-To read my portfolio easily, click each item in navigation bar. Once you click, THEN the UI scrolls to the corresponding section. </p>
+<p>To understand the code that I code, please read the comments in CSS file.</p>
+<p>To read my portfolio easily, click each item in navigation bar. Once you click, THEN the UI scrolls to the corresponding section. </p>
 <p>Also when you click the each contact, it will show you messages for phone number and email address and corresponding webpages of contact for Github, Facebook and Instagram.</p><br>
 
 ![webpage top image](./assets/images/Screenshot-top.jpg)
